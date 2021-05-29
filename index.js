@@ -19,12 +19,6 @@ const questions = [
       },
       {
         type: "input",
-        message: "Table of Contents",
-        name: "Table of Contents",
-        validate: (value) => { if (value) { return true } else { return "Input not detected" } }
-      },
-      {
-        type: "input",
         message: "What are the steps to install the application?",
         name: "Installation",
         validate: (value) => { if (value) { return true } else { return "Input not detected" } }

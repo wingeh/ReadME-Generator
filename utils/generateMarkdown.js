@@ -77,7 +77,6 @@ function generateMarkdown(data) {
   To test the application: ${data.Tests}
   ## Questions
   Please send questions to:
-  ${data.Questions}
   https://github.com/${data.GitHub}/${data.Title}
   ${data.email}
 `;

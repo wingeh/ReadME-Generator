@@ -63,22 +63,27 @@ function generateMarkdown(data) {
    * [Tests](##Tests)
    * [Questions](##Questions)
    
-    ## Installation
-   The following are steps to install the application: ${data.Installation}
+  ## Installation
+  The following are steps to install the application: ${data.Installation}
+
   ## Usage 
-   To use the application, ${data.Usage} 
+  To use the application, ${data.Usage}
+
   ## License 
-   ${renderLicenseSection(data.License)}
+  ${renderLicenseSection(data.License)}
   
-   ${renderLicenseLink(data.License)}
+  ${renderLicenseLink(data.License)}
+
   ## Contributing
   Contributors: ${data.Contributors}
+
   ## Tests
   To test the application: ${data.Tests}
+  
   ## Questions
   Please send questions to:
   https://github.com/${data.GitHub}/${data.Title}
-  ${data.Email}
+  Email: ${data.Email}
 `;
 }
 

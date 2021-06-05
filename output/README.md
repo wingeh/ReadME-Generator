@@ -1,7 +1,7 @@
-# ReadME-Generator
-  [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://img.shields.io/badge/License-GPL%20v2-blue.svg)
+# ReadMe-Generator
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  Simple JS powered application to create professional ReadME files. 
+  It is a node-based application to generate professional ReadMe files
   ## Contents: 
    * [Installation](##Installation)
    * [Usage](##Usage)
@@ -10,19 +10,24 @@
    * [Tests](##Tests)
    * [Questions](##Questions)
    
-    ## Installation
-   The following are steps to install the application: Run npm install to retrieve dependencies.
+  ## Installation
+  The following are steps to install the application: npm install
+
   ## Usage 
-   To use the application, run node index.js in your terminal to start the program. Follow prompts.
+  To use the application, node index.js
+
   ## License 
-   Current project under The GNU GPL v2 License
+  Current project under The MIT License
   
-   [https://img.shields.io/badge/License-GPL%20v2-blue.svg](https://img.shields.io/badge/License-GPL%20v2-blue.svg)
+  [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
+
   ## Contributing
   Contributors: Inquirer.js
+
   ## Tests
-  To test the application: Launch the program - if it works you're good!
+  To test the application: Run the application, follow prompts, inspect output.
+  
   ## Questions
   Please send questions to:
   https://github.com/wingeh/ReadMe-Generator
-  wing_andrew@hotmail.com 
+  Email: wing_andrew@hotmail.com
